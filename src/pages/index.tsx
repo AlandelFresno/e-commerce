@@ -1,7 +1,11 @@
-import { Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
-export default function Home() {
+const Home = () => {
   return (
-    <Typography> Hello world </Typography>
+    <Box height="100%">
+      <Typography variant="h1"> Hello world</Typography>
+    </Box>
   );
-}
+};
+
+export default Home;
